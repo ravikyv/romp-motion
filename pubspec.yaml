@@ -1,0 +1,25 @@
+name: romp_motion
+description: Offline full-body motion-controlled TV party and fitness game.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.11.0+2
+  google_mlkit_pose_detection: ^0.12.0
+  google_mlkit_commons: ^0.7.1
+  shared_preferences: ^2.3.2
+  wakelock_plus: ^1.2.8
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
